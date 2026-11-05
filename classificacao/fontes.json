@@ -1,0 +1,51 @@
+{
+  "apcn2026": {
+    "titulo": "Documento Orientador de APCN 2026 — Área 29",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-humanidades/ciencias-sociais-aplicadas/arquitetura-urbanismo-e-design/arquitet-apcn.pdf/@@display-file/file",
+    "localizacao": "§2.7, página impressa 10 (orientação); §3, páginas 11–13; §4, páginas 14–16 (produção)",
+    "natureza": "Orientação normativa de entrada",
+    "uso": "Janela anterior à submissão, destaques por docente, aderência e distribuição. Cinco destaques não limitam este diagnóstico."
+  },
+  "area2025": {
+    "titulo": "Documento de Área AUD 2025–2028",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-humanidades/ciencias-sociais-aplicadas/AUD_DOCAREA_2025_2028.pdf/@@display-file/file",
+    "localizacao": "§2.2, páginas 19–21",
+    "natureza": "Critério de avaliação da Área",
+    "uso": "Naturezas de produção e lista específica AU. Lista geral de PTT não é equiparada automaticamente à lista da subárea."
+  },
+  "ufg2026": {
+    "titulo": "PRPG/UFG — Criação de programas",
+    "url": "https://areadocoordenador.prpg.ufg.br/p/criacao-de-programas",
+    "localizacao": "Item 5; item 6, VII (orientações), VIII e IV subsequente; atualizada em 25/08/2026",
+    "natureza": "Orientação institucional",
+    "uso": "Distribuição, produção recente e conjunta. Referência a 2021–2026 e à expressão cinco anos mantida como divergência a esclarecer."
+  },
+  "artistico2019": {
+    "titulo": "GT CAPES — Qualis Artístico / Classificação de Eventos (2019)",
+    "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/10062019-qualis-artistico-classificacao-de-eventos-pdf/@@display-file/file",
+    "localizacao": "Páginas 3–4; categorias e critérios qualitativos",
+    "natureza": "Documento complementar de referência",
+    "uso": "Reconhecimento da diversidade de produtos artísticos e projetuais; nenhum estrato ou pontuação é atribuído pelo aplicativo."
+  },
+  "tecnico2019": {
+    "titulo": "GT CAPES — Produção Técnica (2019)",
+    "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/10062019-producao-tecnica-pdf/@@display-file/file",
+    "localizacao": "Tipologia geral de PTT, p. 19; Produto Bibliográfico, p. 26; Manual/Protocolo, p. 54. Recorte subordinado ao Documento de Área AU.",
+    "natureza": "Documento complementar de referência",
+    "uso": "Referência geral de tipologia; não amplia automaticamente a lista específica AU."
+  },
+  "registro2025": {
+    "titulo": "Área 29 — Orientações de registro de resultados e produções intelectuais (2025)",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-humanidades/ciencias-sociais-aplicadas/AUD_Resultados_producoes_intelectuais_2025.pdf/@@display-file/file",
+    "localizacao": "Documento de registro, 2 páginas",
+    "natureza": "Orientação de registro",
+    "uso": "Rastreabilidade e preenchimento de informações; não estabelece aprovação automática de produtos."
+  },
+  "ficha2025": {
+    "titulo": "Ficha de Avaliação AUD 2025–2028",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-humanidades/ciencias-sociais-aplicadas/arquitetura-urbanismo-e-design/arquitet-ficha.pdf/@@display-file/file",
+    "localizacao": "§3.2.2, página impressa 14, especialmente fator (iv)",
+    "natureza": "Referência complementar de avaliação de permanência; não cria regra de entrada APCN",
+    "uso": "Valorização de planos/projetos relativos à paisagem, cidade e edifício, condicionada à aderência; fundamenta a hipótese projetual, sem aprovação automática de projetos profissionais."
+  }
+}

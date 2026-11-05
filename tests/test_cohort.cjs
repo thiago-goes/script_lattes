@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict'),H=require('../dist/cohort.js'),Q=require('../dist/qual-core.js'),O=require('../dist/orientation-core.js');
+const person=(id,name=id)=>({id_lattes:id,nome:name,secao_orientacoes:true,status_coleta:'coletado',cobertura_inicio:2000,cobertura_fim:2026});
+const people=[person('a','Ana'),person('b','Bia'),person('c','Caio'),person('d','Dora')];
+assert.deepEqual(H.ids(people,null),['a','b','c','d']);assert.deepEqual(H.ids(people,[]),[]);assert.deepEqual(H.ids(people,['a','a','unknown']),['a']);
+const prod={produto_id:'shared',ano:2024,grande_categoria:'bibliografica',tipo_bibliografico:'artigo',estado:Q.POT,participacoes:[{docente_id:'a',registro_ids:['1'],duplicatas_internas:0},{docente_id:'b',registro_ids:['2'],duplicatas_internas:0}],coautores_ids:['a','b']};
+const config={periodo_padrao:{inicio:2021,fim:2026},tipos_bibliograficos_padrao:['artigo'],ano_referencia_recente:2026,janela_recente_anos:3,minimo_candidatos_gt:null,limite_concentracao_gt_percentual:null};
+const data={people,produtos:[prod],config,ano_atual:2026};
+let a=Q.analyze(H.scope(data,['a','b']),{});assert.equal(a.rows.length,2);assert.equal(a.totals.total,2);assert.equal(a.totals.jointProducts,1);
+a=Q.analyze(H.scope(data,['a']),{});assert.equal(a.rows.length,1);assert.equal(a.totals.total,1);assert.equal(a.totals.jointProducts,0);
+a=Q.analyze(H.scope(data,[]),{});assert.equal(a.rows.length,0);assert.equal(a.totals.total,0);assert.equal(data.people.length,4);
+const row=(id,kind,owner='a')=>({id,docente_id:owner,docente:owner,modalidade:kind,ano:2010,situacao:'concluida',papel:'principal',instituicao:'UnB',instituicao_ufg:false,institucional_ufg:false,programa_institucional:'',pendencias:[],possivel_duplicidade:false,orientando:id});
+const records=[row('ic','ic'),row('esp','especializacao'),row('mes','mestrado'),row('doc','doutorado'),row('tcc','tcc'),row('it','it'),row('other','outras'),row('external','ic','b'),row('tcc-only','tcc','c'),row('masters','mestrado','d')];
+const orientation={people,records};a=O.analyze(orientation);assert.equal(a.rows[0].focusTotal,4);assert.equal(a.rows[0].experiencia_agregada,4);assert.equal(a.rows[0].ufg,3);assert.equal(a.ufg.percent,50);assert.equal(a.rows.find(r=>r.id==='c').ufg,0);
+a=O.analyze(H.scope(orientation,['a','d']));assert.equal(a.ufg.n,2);assert.equal(a.ufg.yes,2);assert.equal(a.ufg.percent,100);assert.equal(a.ufg.required,2);
+a=O.analyze(H.scope(orientation,['a','d']),{person:'a',start:2021,end:2026});assert.equal(a.rows.length,1);assert.equal(a.rows[0].total,0);assert.equal(a.rows[0].experiencia_agregada,4);assert.equal(a.ufg.n,2);assert.equal(a.ufg.percent,100);
+a=O.analyze(H.scope(orientation,[]));assert.equal(a.ufg.n,0);assert.equal(a.ufg.percent,null);assert.equal(a.rows.length,0);assert(!O.visibleKinds.includes('it'));assert.equal(O.visibleKinds.at(-1),'tcc');
+console.log('PASS: seleção múltipla e vazia, coautoria apenas dentro do grupo, total agregado de IC/pós sem TCC, referência de 75% com denominador do painel e dados originais preservados.');

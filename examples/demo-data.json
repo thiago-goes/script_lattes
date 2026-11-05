@@ -1,0 +1,1411 @@
+{
+  "data": {
+    "dataset_kind": "demo_ficticio",
+    "inicio": 2022,
+    "fim": 2026,
+    "processado_em": "2026-01-01T00:00:00Z",
+    "coleta": "Não houve coleta: dados fictícios",
+    "nota": "DEMONSTRAÇÃO: todos os nomes, títulos, referências e números desta base são fictícios. Não representam docentes, orientandos ou produtos reais.",
+    "people": [
+      {
+        "id_lattes": "demo-a",
+        "nome": "Docente Fictício A",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      },
+      {
+        "id_lattes": "demo-b",
+        "nome": "Docente Fictício B",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      },
+      {
+        "id_lattes": "demo-c",
+        "nome": "Docente Fictício C",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      }
+    ],
+    "groups": [
+      "Produção bibliográfica",
+      "Produção técnica",
+      "Produção artística/cultural"
+    ],
+    "types": [
+      "Artigos completos publicados em periódicos",
+      "Demais tipos de produção técnica",
+      "Capítulos de livros publicados",
+      "Trabalhos técnicos",
+      "Artes visuais"
+    ],
+    "type_groups": {
+      "Artigos completos publicados em periódicos": "Produção bibliográfica",
+      "Demais tipos de produção técnica": "Produção técnica",
+      "Capítulos de livros publicados": "Produção bibliográfica",
+      "Trabalhos técnicos": "Produção técnica",
+      "Artes visuais": "Produção artística/cultural"
+    },
+    "records": [
+      {
+        "id": "demo-001",
+        "id_lattes_docente": "demo-a",
+        "docente": "Docente Fictício A",
+        "grupo": "Produção bibliográfica",
+        "tipo": "Artigos completos publicados em periódicos",
+        "ano": 2024,
+        "titulo": "Estudo demonstrativo de arquitetura",
+        "autores": "DEMONSTRAÇÃO, A.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Estudo demonstrativo de arquitetura. Revista Fictícia de Exemplo, v. 1, p. 1-2, 2024.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      },
+      {
+        "id": "demo-002",
+        "id_lattes_docente": "demo-a",
+        "docente": "Docente Fictício A",
+        "grupo": "Produção técnica",
+        "tipo": "Demais tipos de produção técnica",
+        "ano": 2025,
+        "titulo": "Manual fictício de manutenção urbana",
+        "autores": "DEMONSTRAÇÃO, A.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Manual fictício de manutenção urbana. 2025. Material instrucional de exemplo.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      },
+      {
+        "id": "demo-003",
+        "id_lattes_docente": "demo-b",
+        "docente": "Docente Fictício B",
+        "grupo": "Produção bibliográfica",
+        "tipo": "Capítulos de livros publicados",
+        "ano": 2023,
+        "titulo": "Capítulo demonstrativo sobre cidade",
+        "autores": "DEMONSTRAÇÃO, B.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Capítulo demonstrativo sobre cidade. In: Livro Fictício. Editora de Exemplo, 2023.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      },
+      {
+        "id": "demo-004",
+        "id_lattes_docente": "demo-b",
+        "docente": "Docente Fictício B",
+        "grupo": "Produção técnica",
+        "tipo": "Trabalhos técnicos",
+        "ano": 2026,
+        "titulo": "Relatório técnico conclusivo de diagnóstico fictício",
+        "autores": "DEMONSTRAÇÃO, B.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Relatório técnico conclusivo de diagnóstico fictício. 2026. Resultados e recomendações de um exemplo sintético.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      },
+      {
+        "id": "demo-005",
+        "id_lattes_docente": "demo-c",
+        "docente": "Docente Fictício C",
+        "grupo": "Produção técnica",
+        "tipo": "Trabalhos técnicos",
+        "ano": 2024,
+        "titulo": "Projeto arquitetônico residencial fictício",
+        "autores": "DEMONSTRAÇÃO, C.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Projeto arquitetônico residencial fictício. 2024. Exemplo convencional sem evidência artística.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      },
+      {
+        "id": "demo-006",
+        "id_lattes_docente": "demo-c",
+        "docente": "Docente Fictício C",
+        "grupo": "Produção artística/cultural",
+        "tipo": "Artes visuais",
+        "ano": 2022,
+        "titulo": "Exposição fictícia de arquitetura",
+        "autores": "DEMONSTRAÇÃO, C.",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Exposição fictícia de arquitetura. 2022. Evento demonstrativo sem correspondência com produção real.",
+        "metodo_ano": "Exemplo sintético",
+        "fonte": "#exemplo-ficticio",
+        "doi": ""
+      }
+    ],
+    "audit": [
+      {
+        "id_lattes": "demo-a",
+        "nome": "Docente Fictício A",
+        "status": "coletado",
+        "coletado_em": "Exemplo fictício",
+        "atualizacao_cv": "Exemplo fictício",
+        "sha256_html": "Não há HTML de pessoa real",
+        "registros": 2
+      },
+      {
+        "id_lattes": "demo-b",
+        "nome": "Docente Fictício B",
+        "status": "coletado",
+        "coletado_em": "Exemplo fictício",
+        "atualizacao_cv": "Exemplo fictício",
+        "sha256_html": "Não há HTML de pessoa real",
+        "registros": 2
+      },
+      {
+        "id_lattes": "demo-c",
+        "nome": "Docente Fictício C",
+        "status": "coletado",
+        "coletado_em": "Exemplo fictício",
+        "atualizacao_cv": "Exemplo fictício",
+        "sha256_html": "Não há HTML de pessoa real",
+        "registros": 2
+      }
+    ]
+  },
+  "qualification": {
+    "dataset_kind": "demo_ficticio",
+    "versao_regras": "aud-preliminar-3.0.0",
+    "hash_regras": "demonstração",
+    "hash_motor": "demonstração",
+    "processado_em": "2026-01-01T00:00:00Z",
+    "ano_atual": 2026,
+    "config": {
+      "periodo_padrao": {
+        "inicio": 2021,
+        "fim": 2026
+      },
+      "periodo_institucional": {
+        "inicio": 2021,
+        "fim": 2026
+      },
+      "ano_submissao_padrao": 2026,
+      "ano_referencia_recente": 2026,
+      "janela_recente_anos": 3,
+      "tipos_bibliograficos_padrao": [
+        "artigo",
+        "livro",
+        "capitulo",
+        "anais"
+      ],
+      "minimo_candidatos_gt": null,
+      "limite_concentracao_gt_percentual": null,
+      "percentual_institucional_referencia": 50,
+      "observacao": "Limiares GT desativados por padrão. Referências institucionais são simuladas sobre o grupo selecionado; a categoria de docente permanente não foi informada."
+    },
+    "people": [
+      {
+        "id_lattes": "demo-a",
+        "nome": "Docente Fictício A",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      },
+      {
+        "id_lattes": "demo-b",
+        "nome": "Docente Fictício B",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      },
+      {
+        "id_lattes": "demo-c",
+        "nome": "Docente Fictício C",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício"
+      }
+    ],
+    "produtos": [
+      {
+        "contexto_publicacao": " revista ficticia de exemplo v 1 p 1 2 2024",
+        "ano": 2024,
+        "titulo_original": "Estudo demonstrativo de arquitetura",
+        "titulo_normalizado": "estudo demonstrativo de arquitetura",
+        "autores": "DEMONSTRAÇÃO, A.",
+        "autores_normalizados": [
+          "demonstracao:a"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção bibliográfica",
+        "subcategoria_lattes": "Artigos completos publicados em periódicos",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Estudo demonstrativo de arquitetura. Revista Fictícia de Exemplo, v. 1, p. 1-2, 2024.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "artigo",
+        "grande_categoria": "bibliografica",
+        "tipo_capes": "Artigo publicado em periódico",
+        "subtipo_capes": "",
+        "tipo_bibliografico": "artigo",
+        "estado": "Potencialmente qualificada",
+        "regra": "B-ARTIGO",
+        "justificativa": "Tipo reconhecido pela Área, com título, autoria, ano e indícios editoriais na referência. Candidato à análise qualitativa; sem atribuição de Qualis ou aprovação.",
+        "fontes": [
+          "apcn2026",
+          "area2025"
+        ],
+        "escopo_documental": "especifico_au",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada"
+        ],
+        "evidencias_avaliadas": {
+          "natureza_projetual": false,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "catalogo_id": "Artigo publicado em periódico",
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-32b9a8d58720f104ceb7",
+        "participacoes": [
+          {
+            "docente_id": "demo-a",
+            "docente": "Docente Fictício A",
+            "registro_ids": [
+              "demo-001"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " revista ficticia de exemplo v 1 p 1 2 2024",
+            "registro_id": "demo-001",
+            "docente_id": "demo-a",
+            "docente": "Docente Fictício A",
+            "ano": 2024,
+            "titulo_original": "Estudo demonstrativo de arquitetura",
+            "titulo_normalizado": "estudo demonstrativo de arquitetura",
+            "autores": "DEMONSTRAÇÃO, A.",
+            "autores_normalizados": [
+              "demonstracao:a"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção bibliográfica",
+            "subcategoria_lattes": "Artigos completos publicados em periódicos",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Estudo demonstrativo de arquitetura. Revista Fictícia de Exemplo, v. 1, p. 1-2, 2024.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "artigo",
+            "fingerprint": "17b1724c31c3cb256806c78ee36bc3edcfffbf3657dcc990e6e570ac8d2fbab3",
+            "grande_categoria": "bibliografica",
+            "tipo_capes": "Artigo publicado em periódico",
+            "subtipo_capes": "",
+            "tipo_bibliografico": "artigo",
+            "estado": "Potencialmente qualificada",
+            "regra": "B-ARTIGO",
+            "justificativa": "Tipo reconhecido pela Área, com título, autoria, ano e indícios editoriais na referência. Candidato à análise qualitativa; sem atribuição de Qualis ou aprovação.",
+            "fontes": [
+              "apcn2026",
+              "area2025"
+            ],
+            "escopo_documental": "especifico_au",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada"
+            ],
+            "evidencias_avaliadas": {
+              "natureza_projetual": false,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "catalogo_id": "Artigo publicado em periódico",
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-a"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      },
+      {
+        "contexto_publicacao": " 2025 material instrucional de exemplo",
+        "ano": 2025,
+        "titulo_original": "Manual fictício de manutenção urbana",
+        "titulo_normalizado": "manual ficticio de manutencao urbana",
+        "autores": "DEMONSTRAÇÃO, A.",
+        "autores_normalizados": [
+          "demonstracao:a"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção técnica",
+        "subcategoria_lattes": "Demais tipos de produção técnica",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Manual fictício de manutenção urbana. 2025. Material instrucional de exemplo.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "tecnica",
+        "grande_categoria": "tecnica",
+        "tipo_capes": "Manual/Protocolo",
+        "subtipo_capes": "",
+        "tipo_bibliografico": null,
+        "estado": "Enquadramento incerto",
+        "regra": "T-GERAL",
+        "justificativa": "Tipo ou atividade encontrado na lista geral/contexto técnico. Não foi equiparado automaticamente aos dez tipos específicos de AU; verificar o produto resultante e o recorte da subárea.",
+        "fontes": [
+          "apcn2026",
+          "area2025",
+          "tecnico2019"
+        ],
+        "escopo_documental": "lista_geral_nao_equiparada",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada"
+        ],
+        "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+        "evidencias_avaliadas": {
+          "natureza_projetual": false,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "catalogo_id": "Manual/Protocolo",
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-f7fdf8f0918af37e9b4d",
+        "participacoes": [
+          {
+            "docente_id": "demo-a",
+            "docente": "Docente Fictício A",
+            "registro_ids": [
+              "demo-002"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " 2025 material instrucional de exemplo",
+            "registro_id": "demo-002",
+            "docente_id": "demo-a",
+            "docente": "Docente Fictício A",
+            "ano": 2025,
+            "titulo_original": "Manual fictício de manutenção urbana",
+            "titulo_normalizado": "manual ficticio de manutencao urbana",
+            "autores": "DEMONSTRAÇÃO, A.",
+            "autores_normalizados": [
+              "demonstracao:a"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção técnica",
+            "subcategoria_lattes": "Demais tipos de produção técnica",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, A.. Manual fictício de manutenção urbana. 2025. Material instrucional de exemplo.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "tecnica",
+            "fingerprint": "31af636f624dfa44b112d2f102f0fe745a2fb7af832a2104fc57074fe0d1d9bb",
+            "grande_categoria": "tecnica",
+            "tipo_capes": "Manual/Protocolo",
+            "subtipo_capes": "",
+            "tipo_bibliografico": null,
+            "estado": "Enquadramento incerto",
+            "regra": "T-GERAL",
+            "justificativa": "Tipo ou atividade encontrado na lista geral/contexto técnico. Não foi equiparado automaticamente aos dez tipos específicos de AU; verificar o produto resultante e o recorte da subárea.",
+            "fontes": [
+              "apcn2026",
+              "area2025",
+              "tecnico2019"
+            ],
+            "escopo_documental": "lista_geral_nao_equiparada",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada"
+            ],
+            "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+            "evidencias_avaliadas": {
+              "natureza_projetual": false,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "catalogo_id": "Manual/Protocolo",
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-a"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      },
+      {
+        "contexto_publicacao": " in livro ficticio editora de exemplo 2023",
+        "ano": 2023,
+        "titulo_original": "Capítulo demonstrativo sobre cidade",
+        "titulo_normalizado": "capitulo demonstrativo sobre cidade",
+        "autores": "DEMONSTRAÇÃO, B.",
+        "autores_normalizados": [
+          "demonstracao:b"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção bibliográfica",
+        "subcategoria_lattes": "Capítulos de livros publicados",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Capítulo demonstrativo sobre cidade. In: Livro Fictício. Editora de Exemplo, 2023.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "capitulo",
+        "grande_categoria": "bibliografica",
+        "tipo_capes": "Capítulo de livro",
+        "subtipo_capes": "",
+        "tipo_bibliografico": "capitulo",
+        "estado": "Potencialmente qualificada",
+        "regra": "B-CAPITULO",
+        "justificativa": "Tipo reconhecido pela Área, com título, autoria, ano e indícios editoriais na referência. Candidato à análise qualitativa; sem atribuição de Qualis ou aprovação.",
+        "fontes": [
+          "apcn2026",
+          "area2025"
+        ],
+        "escopo_documental": "especifico_au",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada"
+        ],
+        "evidencias_avaliadas": {
+          "natureza_projetual": false,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "catalogo_id": "Capítulo de livro",
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-40b9de95d1d5c78d4281",
+        "participacoes": [
+          {
+            "docente_id": "demo-b",
+            "docente": "Docente Fictício B",
+            "registro_ids": [
+              "demo-003"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " in livro ficticio editora de exemplo 2023",
+            "registro_id": "demo-003",
+            "docente_id": "demo-b",
+            "docente": "Docente Fictício B",
+            "ano": 2023,
+            "titulo_original": "Capítulo demonstrativo sobre cidade",
+            "titulo_normalizado": "capitulo demonstrativo sobre cidade",
+            "autores": "DEMONSTRAÇÃO, B.",
+            "autores_normalizados": [
+              "demonstracao:b"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção bibliográfica",
+            "subcategoria_lattes": "Capítulos de livros publicados",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Capítulo demonstrativo sobre cidade. In: Livro Fictício. Editora de Exemplo, 2023.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "capitulo",
+            "fingerprint": "89da8c023c8dc1ab554803dd4c61cd3dbc9155e100e56f8ad59dd60bccfc238c",
+            "grande_categoria": "bibliografica",
+            "tipo_capes": "Capítulo de livro",
+            "subtipo_capes": "",
+            "tipo_bibliografico": "capitulo",
+            "estado": "Potencialmente qualificada",
+            "regra": "B-CAPITULO",
+            "justificativa": "Tipo reconhecido pela Área, com título, autoria, ano e indícios editoriais na referência. Candidato à análise qualitativa; sem atribuição de Qualis ou aprovação.",
+            "fontes": [
+              "apcn2026",
+              "area2025"
+            ],
+            "escopo_documental": "especifico_au",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada"
+            ],
+            "evidencias_avaliadas": {
+              "natureza_projetual": false,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "catalogo_id": "Capítulo de livro",
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-b"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      },
+      {
+        "contexto_publicacao": " 2026 resultados e recomendacoes de um exemplo sintetico",
+        "ano": 2026,
+        "titulo_original": "Relatório técnico conclusivo de diagnóstico fictício",
+        "titulo_normalizado": "relatorio tecnico conclusivo de diagnostico ficticio",
+        "autores": "DEMONSTRAÇÃO, B.",
+        "autores_normalizados": [
+          "demonstracao:b"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção técnica",
+        "subcategoria_lattes": "Trabalhos técnicos",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Relatório técnico conclusivo de diagnóstico fictício. 2026. Resultados e recomendações de um exemplo sintético.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "tecnica",
+        "grande_categoria": "tecnica",
+        "tipo_capes": "Relatório Técnico Conclusivo",
+        "subtipo_capes": "",
+        "tipo_bibliografico": null,
+        "estado": "Potencialmente qualificada",
+        "regra": "T06",
+        "justificativa": "Correspondência plausível com a lista específica AU, apoiada em sinais de natureza e documentação na referência. Requer validação do produto, uso, qualidade e aderência.",
+        "fontes": [
+          "apcn2026",
+          "area2025",
+          "tecnico2019"
+        ],
+        "escopo_documental": "especifico_au",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada"
+        ],
+        "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+        "evidencias_avaliadas": {
+          "natureza_projetual": false,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "catalogo_id": "Relatório Técnico Conclusivo",
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-e61fe2f3eb4344e26498",
+        "participacoes": [
+          {
+            "docente_id": "demo-b",
+            "docente": "Docente Fictício B",
+            "registro_ids": [
+              "demo-004"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " 2026 resultados e recomendacoes de um exemplo sintetico",
+            "registro_id": "demo-004",
+            "docente_id": "demo-b",
+            "docente": "Docente Fictício B",
+            "ano": 2026,
+            "titulo_original": "Relatório técnico conclusivo de diagnóstico fictício",
+            "titulo_normalizado": "relatorio tecnico conclusivo de diagnostico ficticio",
+            "autores": "DEMONSTRAÇÃO, B.",
+            "autores_normalizados": [
+              "demonstracao:b"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção técnica",
+            "subcategoria_lattes": "Trabalhos técnicos",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, B.. Relatório técnico conclusivo de diagnóstico fictício. 2026. Resultados e recomendações de um exemplo sintético.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "tecnica",
+            "fingerprint": "aaa7c07a442c72ed13a4cc149155b1becbf1baac0956f14c60545b10e5027664",
+            "grande_categoria": "tecnica",
+            "tipo_capes": "Relatório Técnico Conclusivo",
+            "subtipo_capes": "",
+            "tipo_bibliografico": null,
+            "estado": "Potencialmente qualificada",
+            "regra": "T06",
+            "justificativa": "Correspondência plausível com a lista específica AU, apoiada em sinais de natureza e documentação na referência. Requer validação do produto, uso, qualidade e aderência.",
+            "fontes": [
+              "apcn2026",
+              "area2025",
+              "tecnico2019"
+            ],
+            "escopo_documental": "especifico_au",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada"
+            ],
+            "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+            "evidencias_avaliadas": {
+              "natureza_projetual": false,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "catalogo_id": "Relatório Técnico Conclusivo",
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-b"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      },
+      {
+        "contexto_publicacao": " 2024 exemplo convencional sem evidencia artistica",
+        "ano": 2024,
+        "titulo_original": "Projeto arquitetônico residencial fictício",
+        "titulo_normalizado": "projeto arquitetonico residencial ficticio",
+        "autores": "DEMONSTRAÇÃO, C.",
+        "autores_normalizados": [
+          "demonstracao:c"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção técnica",
+        "subcategoria_lattes": "Trabalhos técnicos",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Projeto arquitetônico residencial fictício. 2024. Exemplo convencional sem evidência artística.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "artistica",
+        "grande_categoria": "artistica",
+        "tipo_capes": "Projeto/representação — enquadramento artístico-cultural não demonstrado",
+        "subtipo_capes": "Projeto arquitetônico, urbanístico ou paisagístico",
+        "tipo_bibliografico": null,
+        "estado": "Enquadramento incerto",
+        "regra": "AC-PROJETO-INCERTO",
+        "justificativa": "A referência identifica projeto ou representação, mas não demonstra criação/investigação artístico-cultural ou circulação pertinente. Projeto residencial, estrutural, executivo, reforma, levantamento e maquete não se tornam produção artística qualificada por sua simples existência. Verificar eventual produto técnico documentado, mantendo a referência original.",
+        "fontes": [
+          "apcn2026",
+          "area2025",
+          "artistico2019"
+        ],
+        "escopo_documental": "especifico_au",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada",
+          "Conferir entrega, autoria, vínculo com pesquisa e documentação; palavras no título não demonstram qualidade"
+        ],
+        "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+        "evidencias_avaliadas": {
+          "natureza_projetual": true,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "natureza_projetual": "Projeto profissional ou representação convencional; caráter artístico não demonstrado",
+        "sugestao_anterior": {
+          "estado": "Enquadramento incerto",
+          "grande_categoria": "artistica",
+          "tipo_capes": "Projeto arquitetônico, urbanístico ou paisagístico",
+          "regra": "A-INDICIOS"
+        },
+        "enquadramento_alternativo": "Projeto técnico resultante de pesquisa/assessoria, caso haja entrega e evidências; não equivale automaticamente a Relatório Técnico Conclusivo.",
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-32d71412836e1953d092",
+        "participacoes": [
+          {
+            "docente_id": "demo-c",
+            "docente": "Docente Fictício C",
+            "registro_ids": [
+              "demo-005"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " 2024 exemplo convencional sem evidencia artistica",
+            "registro_id": "demo-005",
+            "docente_id": "demo-c",
+            "docente": "Docente Fictício C",
+            "ano": 2024,
+            "titulo_original": "Projeto arquitetônico residencial fictício",
+            "titulo_normalizado": "projeto arquitetonico residencial ficticio",
+            "autores": "DEMONSTRAÇÃO, C.",
+            "autores_normalizados": [
+              "demonstracao:c"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção técnica",
+            "subcategoria_lattes": "Trabalhos técnicos",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Projeto arquitetônico residencial fictício. 2024. Exemplo convencional sem evidência artística.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "artistica",
+            "fingerprint": "89e046e0e968958ed0e056fed979b102e0601546c8d160f612a1e162fd4b040c",
+            "grande_categoria": "artistica",
+            "tipo_capes": "Projeto/representação — enquadramento artístico-cultural não demonstrado",
+            "subtipo_capes": "Projeto arquitetônico, urbanístico ou paisagístico",
+            "tipo_bibliografico": null,
+            "estado": "Enquadramento incerto",
+            "regra": "AC-PROJETO-INCERTO",
+            "justificativa": "A referência identifica projeto ou representação, mas não demonstra criação/investigação artístico-cultural ou circulação pertinente. Projeto residencial, estrutural, executivo, reforma, levantamento e maquete não se tornam produção artística qualificada por sua simples existência. Verificar eventual produto técnico documentado, mantendo a referência original.",
+            "fontes": [
+              "apcn2026",
+              "area2025",
+              "artistico2019"
+            ],
+            "escopo_documental": "especifico_au",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada",
+              "Conferir entrega, autoria, vínculo com pesquisa e documentação; palavras no título não demonstram qualidade"
+            ],
+            "revisao_interpretativa": "Registro novo ou alterado: leitura interpretativa pendente",
+            "evidencias_avaliadas": {
+              "natureza_projetual": true,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "natureza_projetual": "Projeto profissional ou representação convencional; caráter artístico não demonstrado",
+            "sugestao_anterior": {
+              "estado": "Enquadramento incerto",
+              "grande_categoria": "artistica",
+              "tipo_capes": "Projeto arquitetônico, urbanístico ou paisagístico",
+              "regra": "A-INDICIOS"
+            },
+            "enquadramento_alternativo": "Projeto técnico resultante de pesquisa/assessoria, caso haja entrega e evidências; não equivale automaticamente a Relatório Técnico Conclusivo.",
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-c"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      },
+      {
+        "contexto_publicacao": " 2022 evento demonstrativo sem correspondencia com producao real",
+        "ano": 2022,
+        "titulo_original": "Exposição fictícia de arquitetura",
+        "titulo_normalizado": "exposicao ficticia de arquitetura",
+        "autores": "DEMONSTRAÇÃO, C.",
+        "autores_normalizados": [
+          "demonstracao:c"
+        ],
+        "doi": "",
+        "issn": "",
+        "isbn": "",
+        "metadados_editoriais": {
+          "revista": "",
+          "evento": "",
+          "livro": "",
+          "editora": "",
+          "volume": "",
+          "paginas": ""
+        },
+        "identificadores_adicionais": {},
+        "categoria_lattes": "Produção artística/cultural",
+        "subcategoria_lattes": "Artes visuais",
+        "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Exposição fictícia de arquitetura. 2022. Evento demonstrativo sem correspondência com produção real.",
+        "fonte_registro": "#exemplo-ficticio",
+        "familia": "artistica",
+        "grande_categoria": "artistica",
+        "tipo_capes": "Exposição/mostra",
+        "subtipo_capes": "Exposição/mostra",
+        "tipo_bibliografico": null,
+        "estado": "Potencialmente qualificada",
+        "regra": "A-INDICIOS",
+        "justificativa": "Há produto artístico/projetual identificável e sinais textuais de relação com AUD. A relação com pesquisa, alcance e proposta deve ser conferida.",
+        "fontes": [
+          "apcn2026",
+          "area2025",
+          "artistico2019"
+        ],
+        "escopo_documental": "especifico_au",
+        "necessita_conferencia": true,
+        "pendencias": [
+          "Qualidade e impacto não verificados",
+          "Aderência às linhas e aos projetos da APCN não verificada"
+        ],
+        "evidencias_avaliadas": {
+          "natureza_projetual": false,
+          "circulacao_artistica_explicita": false,
+          "investigacao_criativa_explicita": false,
+          "pesquisa_mencionada": false,
+          "documentacao_integra": "Não consultada; referência do Lattes apenas"
+        },
+        "versao_criterios": "aud-3.0.0",
+        "produto_id": "prod-c270b8d1479c5fb9aad6",
+        "participacoes": [
+          {
+            "docente_id": "demo-c",
+            "docente": "Docente Fictício C",
+            "registro_ids": [
+              "demo-006"
+            ],
+            "duplicatas_internas": 0
+          }
+        ],
+        "registros_origem": [
+          {
+            "contexto_publicacao": " 2022 evento demonstrativo sem correspondencia com producao real",
+            "registro_id": "demo-006",
+            "docente_id": "demo-c",
+            "docente": "Docente Fictício C",
+            "ano": 2022,
+            "titulo_original": "Exposição fictícia de arquitetura",
+            "titulo_normalizado": "exposicao ficticia de arquitetura",
+            "autores": "DEMONSTRAÇÃO, C.",
+            "autores_normalizados": [
+              "demonstracao:c"
+            ],
+            "doi": "",
+            "issn": "",
+            "isbn": "",
+            "metadados_editoriais": {
+              "revista": "",
+              "evento": "",
+              "livro": "",
+              "editora": "",
+              "volume": "",
+              "paginas": ""
+            },
+            "identificadores_adicionais": {},
+            "categoria_lattes": "Produção artística/cultural",
+            "subcategoria_lattes": "Artes visuais",
+            "referencia_original": "[EXEMPLO FICTÍCIO] DEMONSTRAÇÃO, C.. Exposição fictícia de arquitetura. 2022. Evento demonstrativo sem correspondência com produção real.",
+            "fonte_registro": "#exemplo-ficticio",
+            "coautores_ids": [],
+            "familia": "artistica",
+            "fingerprint": "5727e75bd0b834e1f215e37f1a3c1a1ae00739b89fdcf4ea8bdaea3746c43c1b",
+            "grande_categoria": "artistica",
+            "tipo_capes": "Exposição/mostra",
+            "subtipo_capes": "Exposição/mostra",
+            "tipo_bibliografico": null,
+            "estado": "Potencialmente qualificada",
+            "regra": "A-INDICIOS",
+            "justificativa": "Há produto artístico/projetual identificável e sinais textuais de relação com AUD. A relação com pesquisa, alcance e proposta deve ser conferida.",
+            "fontes": [
+              "apcn2026",
+              "area2025",
+              "artistico2019"
+            ],
+            "escopo_documental": "especifico_au",
+            "necessita_conferencia": true,
+            "pendencias": [
+              "Qualidade e impacto não verificados",
+              "Aderência às linhas e aos projetos da APCN não verificada"
+            ],
+            "evidencias_avaliadas": {
+              "natureza_projetual": false,
+              "circulacao_artistica_explicita": false,
+              "investigacao_criativa_explicita": false,
+              "pesquisa_mencionada": false,
+              "documentacao_integra": "Não consultada; referência do Lattes apenas"
+            },
+            "versao_criterios": "aud-3.0.0"
+          }
+        ],
+        "possivel_duplicidade": false,
+        "possiveis_registros_duplicados": [],
+        "duplicatas_internas": 0,
+        "coautores_ids": [
+          "demo-c"
+        ],
+        "decisao_deduplicacao": "D01 — DOI compatível ou título/ano/natureza/autoria; originais preservados",
+        "conflito_ano": false
+      }
+    ],
+    "estatisticas": {
+      "registros_originais": 6,
+      "produtos_unicos": 6,
+      "participacoes_deduplicadas": 6,
+      "duplicatas_internas": 0,
+      "classificacoes_reutilizadas": 0,
+      "classificacoes_recalculadas": 6,
+      "registros_tecnicos": 3,
+      "registros_tecnicos_revisados": 0,
+      "registros_tecnicos_sem_revisao": 3
+    },
+    "cobertura": {
+      "inicio": 2020,
+      "fim": 2026
+    },
+    "avisos": [
+      "DADOS FICTÍCIOS: a demonstração não representa pessoas ou produção reais.",
+      "Enquadramentos e confirmações no GT não são aprovação oficial da CAPES."
+    ]
+  },
+  "orientations": {
+    "dataset_kind": "demo_ficticio",
+    "versao": "exemplo-1",
+    "people": [
+      {
+        "id_lattes": "demo-a",
+        "nome": "Docente Fictício A",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício",
+        "secao_orientacoes": true,
+        "registros_brutos": 4
+      },
+      {
+        "id_lattes": "demo-b",
+        "nome": "Docente Fictício B",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício",
+        "secao_orientacoes": true,
+        "registros_brutos": 3
+      },
+      {
+        "id_lattes": "demo-c",
+        "nome": "Docente Fictício C",
+        "status_coleta": "coletado",
+        "coletado_em": "Demonstração fictícia; sem coleta",
+        "atualizacao_cv": "Não se aplica à demonstração",
+        "cobertura_inicio": 2020,
+        "cobertura_fim": 2026,
+        "categoria_na_proposta": "Exemplo fictício",
+        "secao_orientacoes": true,
+        "registros_brutos": 4
+      }
+    ],
+    "modalidades": {
+      "ic": "Iniciação científica",
+      "it": "Iniciação tecnológica",
+      "tcc": "TCC de graduação",
+      "especializacao": "Especialização",
+      "mestrado": "Mestrado",
+      "doutorado": "Doutorado",
+      "outras": "Outras"
+    },
+    "records": [
+      {
+        "id": "ori-demo-001",
+        "docente_id": "demo-a",
+        "docente": "Docente Fictício A",
+        "orientando": "Estudante Fictício 1",
+        "titulo": "Trabalho fictício de demonstração 1",
+        "ano": 2020,
+        "ano_conclusao": 2020,
+        "ano_inicio": null,
+        "modalidade": "ic",
+        "modalidade_lattes": "ic",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 1. Trabalho de demonstração 1. 2020. Docente Fictício A.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-1",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-002",
+        "docente_id": "demo-a",
+        "docente": "Docente Fictício A",
+        "orientando": "Estudante Fictício 2",
+        "titulo": "Trabalho fictício de demonstração 2",
+        "ano": 2024,
+        "ano_conclusao": 2024,
+        "ano_inicio": null,
+        "modalidade": "ic",
+        "modalidade_lattes": "ic",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 2. Trabalho de demonstração 2. 2024. Docente Fictício A.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-2",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-003",
+        "docente_id": "demo-a",
+        "docente": "Docente Fictício A",
+        "orientando": "Estudante Fictício 3",
+        "titulo": "Trabalho fictício de demonstração 3",
+        "ano": 2025,
+        "ano_conclusao": 2025,
+        "ano_inicio": null,
+        "modalidade": "especializacao",
+        "modalidade_lattes": "especializacao",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 3. Trabalho de demonstração 3. 2025. Docente Fictício A.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-3",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-004",
+        "docente_id": "demo-a",
+        "docente": "Docente Fictício A",
+        "orientando": "Estudante Fictício 4",
+        "titulo": "Trabalho fictício de demonstração 4",
+        "ano": 2026,
+        "ano_conclusao": null,
+        "ano_inicio": 2026,
+        "modalidade": "ic",
+        "modalidade_lattes": "ic",
+        "situacao": "andamento",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 4. Trabalho de demonstração 4. 2026. Docente Fictício A.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-4",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-005",
+        "docente_id": "demo-b",
+        "docente": "Docente Fictício B",
+        "orientando": "Estudante Fictício 5",
+        "titulo": "Trabalho fictício de demonstração 5",
+        "ano": 2023,
+        "ano_conclusao": 2023,
+        "ano_inicio": null,
+        "modalidade": "mestrado",
+        "modalidade_lattes": "mestrado",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 5. Trabalho de demonstração 5. 2023. Docente Fictício B.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-5",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-006",
+        "docente_id": "demo-b",
+        "docente": "Docente Fictício B",
+        "orientando": "Estudante Fictício 6",
+        "titulo": "Trabalho fictício de demonstração 6",
+        "ano": 2025,
+        "ano_conclusao": 2025,
+        "ano_inicio": null,
+        "modalidade": "doutorado",
+        "modalidade_lattes": "doutorado",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 6. Trabalho de demonstração 6. 2025. Docente Fictício B.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-6",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-007",
+        "docente_id": "demo-b",
+        "docente": "Docente Fictício B",
+        "orientando": "Estudante Fictício 7",
+        "titulo": "Trabalho fictício de demonstração 7",
+        "ano": 2024,
+        "ano_conclusao": 2024,
+        "ano_inicio": null,
+        "modalidade": "mestrado",
+        "modalidade_lattes": "mestrado",
+        "situacao": "concluida",
+        "papel": "coorientacao",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 7. Trabalho de demonstração 7. 2024. Docente Fictício B.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-7",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-008",
+        "docente_id": "demo-c",
+        "docente": "Docente Fictício C",
+        "orientando": "Estudante Fictício 8",
+        "titulo": "Trabalho fictício de demonstração 8",
+        "ano": 2021,
+        "ano_conclusao": 2021,
+        "ano_inicio": null,
+        "modalidade": "tcc",
+        "modalidade_lattes": "tcc",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 8. Trabalho de demonstração 8. 2021. Docente Fictício C.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-8",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-009",
+        "docente_id": "demo-c",
+        "docente": "Docente Fictício C",
+        "orientando": "Estudante Fictício 9",
+        "titulo": "Trabalho fictício de demonstração 9",
+        "ano": 2022,
+        "ano_conclusao": 2022,
+        "ano_inicio": null,
+        "modalidade": "tcc",
+        "modalidade_lattes": "tcc",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 9. Trabalho de demonstração 9. 2022. Docente Fictício C.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-9",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-010",
+        "docente_id": "demo-c",
+        "docente": "Docente Fictício C",
+        "orientando": "Estudante Fictício 10",
+        "titulo": "Trabalho fictício de demonstração 10",
+        "ano": 2023,
+        "ano_conclusao": 2023,
+        "ano_inicio": null,
+        "modalidade": "tcc",
+        "modalidade_lattes": "tcc",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 10. Trabalho de demonstração 10. 2023. Docente Fictício C.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-10",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      },
+      {
+        "id": "ori-demo-011",
+        "docente_id": "demo-c",
+        "docente": "Docente Fictício C",
+        "orientando": "Estudante Fictício 11",
+        "titulo": "Trabalho fictício de demonstração 11",
+        "ano": 2024,
+        "ano_conclusao": 2024,
+        "ano_inicio": null,
+        "modalidade": "tcc",
+        "modalidade_lattes": "tcc",
+        "situacao": "concluida",
+        "papel": "principal",
+        "curso_programa": "Curso de demonstração fictício",
+        "instituicao": "Instituição Fictícia de Exemplo",
+        "programa_institucional": "",
+        "instituicao_ufg": false,
+        "institucional_ufg": false,
+        "referencia_original": "[EXEMPLO FICTÍCIO] Estudante Fictício 11. Trabalho de demonstração 11. 2024. Docente Fictício C.",
+        "fonte": "#exemplo-ficticio",
+        "pendencias": [],
+        "chave_trabalho": "demo-work-11",
+        "repeticoes": 0,
+        "possivel_duplicidade": false
+      }
+    ],
+    "registros_brutos": 11,
+    "duplicatas_exatas": 0,
+    "nota": "DEMONSTRAÇÃO: dados sintéticos, sem orientandos ou orientações reais."
+  }
+}

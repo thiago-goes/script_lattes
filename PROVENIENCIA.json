@@ -1,0 +1,21 @@
+{
+  "preparado_em": "2026-11-05T10:46:58.732028-03:00",
+  "origem_commit": "a0e4dc45d1f629df33c96f5c3f3c04d055a6c81d",
+  "tipo_entrega": "Snapshot de colaboração; sem sincronização ou publicação automática",
+  "dados_incluidos": "Somente exemplos fictícios de demonstração; nenhum currículo ou orientação de pessoa real.",
+  "adaptacoes": [
+    "README e guia de integração com caminhos locais",
+    "Scripts de teste e prévia local via npm",
+    "Detecção de Chrome/ChromeDriver por PATH ou variáveis de ambiente",
+    "Exemplo de hospedagem sem ID da implantação original"
+  ],
+  "nao_incluido": [
+    "Credenciais e variáveis de produção",
+    "Banco de revisões D1 e backups de decisões humanas",
+    "HTMLs brutos dos currículos",
+    "Histórico Git e arquivos locais do ambiente de execução",
+    "Dados processados de docentes e orientandos reais",
+    "Cadastro nominal de produção",
+    "Leitura assistida vinculada a produtos reais"
+  ]
+}

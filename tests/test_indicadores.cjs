@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict'),C=require('../dist/qual-core.js');
+const person=id=>({id_lattes:id,nome:id,status_coleta:'coletado',cobertura_inicio:2021,cobertura_fim:2026,coletado_em:'2026-10-08'});
+const prod=(id,year,kind='artigo',state=C.POT,persons=['p1'])=>({produto_id:id,ano:year,grande_categoria:'bibliografica',tipo_bibliografico:kind,estado:state,participacoes:persons.map(id=>({docente_id:id,registro_ids:[id+'-'+id],duplicatas_internas:0})),coautores_ids:persons});
+const d={people:[person('p1'),person('p2'),person('zero')],ano_atual:2026,versao_regras:'test',processado_em:'2026-11-04',config:{periodo_padrao:{inicio:2021,fim:2026},tipos_bibliograficos_padrao:['artigo','livro','capitulo','anais'],ano_referencia_recente:2026,janela_recente_anos:3,minimo_candidatos_gt:null,limite_concentracao_gt_percentual:null},produtos:[prod('article',2021,'artigo',C.POT,['p1','p2']),prod('book',2023,'livro'),prod('chapter',2024,'capitulo'),prod('anais',2025,'anais'),prod('uncertain',2026,'artigo',C.INC),prod('simple',2025,'resumo',C.NONE),prod('presentation',2025,'apresentacao',C.NONE)]};
+let a=C.analyze(d,C.defaults(d));assert.equal(a.totals.total,5);assert.equal(a.totals.uniquePotential,4);assert.equal(a.totals.uncertain,1);assert.equal(a.rows.find(r=>r.id==='zero').total,0);assert.equal(a.totals.jointProducts,1);assert.equal(a.totals.annualRegular,0);
+const restricted=C.analyze(d,{biblioTypes:['artigo','livro','capitulo']});assert.equal(restricted.totals.total,4);assert.equal(restricted.rows.find(r=>r.id==='p1').total,3);assert.equal(restricted.yearly.find(r=>r.year===2025).total,0);assert(!restricted.details.some(r=>r.produto_id==='anais'));
+a=C.analyze(d,{start:2023,end:2025});assert.equal(a.totals.total,3);assert.equal(a.rows.find(r=>r.id==='p1').recent,null);assert(a.notices.some(n=>n.includes('2024–2026')));
+a=C.analyze(d,{start:2027,end:2027});assert(a.rows.every(r=>r.total===null));assert(a.rows.every(r=>r.annual[2027]===null));assert.equal(a.totals.withoutPotential,0);assert(a.notices.some(n=>n.includes('Nenhum ano')));
+a=C.analyze(d,{start:2021,end:2027});assert(a.rows.every(r=>!r.complete));assert.equal(a.rows.find(r=>r.id==='p1').total,4);assert.equal(a.rows.find(r=>r.id==='p1').recent,2);
+const extra=prod('course',2025,null,C.INC);extra.grande_categoria='tecnica';a=C.analyze({...d,produtos:[...d.produtos,extra]},{});assert.equal(a.totals.total,5);assert.equal(a.totals.uncertain,2);
+a=C.analyze(d,{sort:'total',direction:'asc'});assert.equal(a.rows[0].id,'zero');a=C.analyze(d,{sort:'total',direction:'desc'});assert.equal(a.rows[0].id,'p1');
+a=C.analyze(d,{start:2023,end:2025,biblioTypes:['artigo','livro','capitulo']});const m=C.metadata(d,a);assert(m.some(([k,v])=>k==='Período'&&v==='2023–2025'));assert(m.some(([k,v])=>k==='Trabalhos completos em anais'&&v.startsWith('Excluídos')));assert.deepEqual(C.annualRows(a)[0],['Docente','2023','2024','2025','Total prévio']);
+const outdated={...d,people:d.people.map(p=>p.id_lattes==='p2'?{...p,cobertura_fim:2024}:p)};a=C.analyze(outdated,{});assert.equal(a.rows.find(r=>r.id==='p2').annual[2025],null);assert.equal(a.rows.find(r=>r.id==='p2').recent,null);
+assert.throws(()=>C.analyze(d,{start:2026,end:2023}));
+console.log('PASS: cenários amplo/restrito, incertos separados, docente zero, coautoria individual e única, anos indisponíveis, janela recente independente, ordenação e metadados de exportação.');
+
+assert.equal(C.defaults(d).sort,'name');
+const technicalPotential={...extra,potencial_a_confirmar:true};a=C.analyze({...d,produtos:[...d.produtos,technicalPotential]},{});assert.equal(a.totals.pendingPotential,1);assert.equal(a.totals.uncertain,2);assert.equal(a.totals.total,5);

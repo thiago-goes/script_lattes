@@ -1,0 +1,30 @@
+historico/
+__pycache__/
+*.pyc
+ultima-atualizacao.json
+cache/
+work/
+status-coleta.json
+
+node_modules/
+.wrangler/
+.sites-runtime/
+
+.venv/
+.env
+.env.*
+!.env.example
+.local/
+html-cache/
+outputs/
+*.sqlite
+*.sqlite-*
+.openai/hosting.json
+
+# Dados gerados ou importados não devem ser publicados nesta cópia de código.
+dist/*.json
+dist/*.html
+dist/*.csv
+dist/*.xlsx
+dist/*.zip
+# Cadastro de produção deve ficar local; o arquivo versionado contém apenas cabeçalhos.

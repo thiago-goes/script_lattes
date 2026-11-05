@@ -1,0 +1,12 @@
+{
+  "periodo_padrao": {"inicio":2021,"fim":2026},
+  "periodo_institucional": {"inicio":2021,"fim":2026},
+  "ano_submissao_padrao":null,
+  "ano_referencia_recente":null,
+  "janela_recente_anos":3,
+  "tipos_bibliograficos_padrao":["artigo","livro","capitulo","anais"],
+  "minimo_candidatos_gt":null,
+  "limite_concentracao_gt_percentual":null,
+  "percentual_institucional_referencia":50,
+  "observacao":"Limiares GT desativados por padrão. Referências institucionais são simuladas sobre o grupo selecionado; a categoria de docente permanente não foi informada."
+}

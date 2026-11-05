@@ -1,0 +1,199 @@
+{
+  "versao": "aud-preliminar-3.0.0",
+  "natureza": "Pré-classificação automática e leitura assistida, com salvaguardas de evidência e revisão humana persistente separada",
+  "bibliografica": {
+    "Artigos completos publicados em periódicos": {
+      "chave": "artigo",
+      "tipo": "Artigo publicado em periódico",
+      "familia": "artigo",
+      "candidato": true
+    },
+    "Livros publicados/organizados ou edições": {
+      "chave": "livro",
+      "tipo": "Livro publicado/organizado ou edição",
+      "familia": "livro",
+      "candidato": true
+    },
+    "Capítulos de livros publicados": {
+      "chave": "capitulo",
+      "tipo": "Capítulo de livro",
+      "familia": "capitulo",
+      "candidato": true
+    },
+    "Trabalhos completos publicados em anais de congressos": {
+      "chave": "anais",
+      "tipo": "Trabalho completo em anais",
+      "familia": "anais",
+      "candidato": true
+    },
+    "Resumos expandidos publicados em anais de congressos": {
+      "chave": "resumo_expandido",
+      "tipo": "Resumo expandido",
+      "familia": "resumo_expandido",
+      "candidato": false
+    },
+    "Resumos publicados em anais de congressos": {
+      "chave": "resumo",
+      "tipo": "Resumo simples",
+      "familia": "resumo",
+      "candidato": false
+    },
+    "Apresentações de Trabalho": {
+      "chave": "apresentacao",
+      "tipo": "Apresentação de trabalho",
+      "familia": "apresentacao",
+      "candidato": false
+    },
+    "Artigos aceitos para publicação": {
+      "chave": "outro",
+      "tipo": "Artigo aceito; publicação a confirmar",
+      "familia": "artigo",
+      "candidato": false
+    }
+  },
+  "tipos_tecnicos_au": [
+    "Produto Técnico Bibliográfico",
+    "Ativos de Propriedade Intelectual",
+    "Tecnologia Social",
+    "Produto de Editoração",
+    "Evento Organizado",
+    "Relatório Técnico Conclusivo",
+    "Acervo",
+    "Base de Dados Técnico-Científico",
+    "Produto de Comunicação",
+    "Carta, Mapa ou Similar"
+  ],
+  "aderencia_au": "arquitet|urbanis|urban[oa]|patrimoni|paisag|edifica|habitac|territori|cartograf|ambiente construido|espaco publico|museograf|urban sketch|paisagem sonora",
+  "tecnica": [
+    {
+      "id": "T01",
+      "tipo": "Produto Técnico Bibliográfico",
+      "padrao": "publicacao tecnica|artigo em revista tecnica|artigo tecnico|resenha tecnica",
+      "evidencia": "revista tecnica|jornal|revista de divulgacao|issn|publicad|revisao por pares",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T02",
+      "tipo": "Ativos de Propriedade Intelectual",
+      "padrao": "patente|programa de computador registrado|registro de software|registro de marca|marca registrada|desenho industrial|cultivar protegida|topografia de circuito|indicacao geografica",
+      "evidencia": "inpi|\\bbr\\s*[0-9]|registro n|patente concedida|patente depositada",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T03",
+      "tipo": "Tecnologia Social",
+      "padrao": "tecnologia social",
+      "evidencia": "comunidad|participativ|implantad|validada|implementad",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T04",
+      "tipo": "Produto de Editoração",
+      "padrao": "editoracao|organizacao editorial|edicao de (livro|periodico|revista|catalogo|anais)",
+      "evidencia": "livro|periodico|revista|catalogo|anais",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T05",
+      "tipo": "Evento Organizado",
+      "padrao": "organizacao de (evento|congresso|seminario|exposicao|encontro)|evento organizado",
+      "evidencia": "organizacao|organizado",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T06",
+      "tipo": "Relatório Técnico Conclusivo",
+      "padrao": "relatorio tecnico conclusivo|relatorio final de pesquisa|relatorio final tecnico",
+      "evidencia": "conclus|resultado|diagnostic|recomendac|final",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T07",
+      "tipo": "Acervo",
+      "padrao": "acervo",
+      "evidencia": "catalogac|documentac|preservac|organizacao|digitaliz|inventario",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T08",
+      "tipo": "Base de Dados Técnico-Científico",
+      "padrao": "base de dados|banco de dados",
+      "evidencia": "tecnic|cientific|pesquisa|dados abertos|georreferenc",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T09",
+      "tipo": "Produto de Comunicação",
+      "padrao": "produto de comunicacao|documentario|podcast|programa de radio|programa de televisao|video de divulgacao",
+      "evidencia": "divulgacao cientifica|pesquisa|serie|produ[cç]ao|roteiro|publicad",
+      "escopo": "especifico_au"
+    },
+    {
+      "id": "T10",
+      "tipo": "Carta, Mapa ou Similar",
+      "padrao": "\\bmapa\\b|\\bcarta cartografica\\b|atlas|cartografia",
+      "evidencia": "cartograf|georreferenc|mapeamento|escala|territori|urban",
+      "escopo": "especifico_au"
+    }
+  ],
+  "tipos_gerais_nao_equiparados": [
+    {
+      "padrao": "curso|oficina|minicurso",
+      "tipo": "Curso de formação profissional"
+    },
+    {
+      "padrao": "material didatico|material instrucional|apostila",
+      "tipo": "Material didático"
+    },
+    {
+      "padrao": "software|aplicativo|programa de computador",
+      "tipo": "Software/Aplicativo sem registro comprovado"
+    },
+    {
+      "padrao": "manual|protocolo",
+      "tipo": "Manual/Protocolo"
+    },
+    {
+      "padrao": "consultoria|assessoria",
+      "tipo": "Serviço de assessoria/consultoria; produto resultante não identificado"
+    }
+  ],
+  "arte": [
+    {
+      "padrao": "projeto arquitetonic|projeto urbanistic|projeto paisagistic",
+      "tipo": "Projeto arquitetônico, urbanístico ou paisagístico"
+    },
+    {
+      "padrao": "curadoria|curatorial",
+      "tipo": "Curadoria"
+    },
+    {
+      "padrao": "museograf",
+      "tipo": "Museografia"
+    },
+    {
+      "padrao": "exposicao|mostra",
+      "tipo": "Exposição/mostra"
+    },
+    {
+      "padrao": "audiovisual|documentario|filme|video",
+      "tipo": "Produção visual/audiovisual"
+    },
+    {
+      "padrao": "desenho|representacao grafica|representacao espacial|fotografia|gravura|aquarela",
+      "tipo": "Representação gráfica, espacial ou visual"
+    }
+  ],
+  "deduplicacao": {
+    "id": "D01",
+    "natureza": "Regra técnica interna",
+    "criterio": "DOI normalizado compatível ou título específico idêntico, ano, família de produto e autoria compatíveis. Diferentes naturezas de um mesmo estudo não são fundidas apenas pelo título. Coincidências fracas são sinalizadas para conferência."
+  },
+  "ressalvas": "Todos os candidatos precisam de conferência de qualidade, aderência às linhas/projetos e documentação. Não há Qualis, notas, pontuação ou limite automático de cinco produtos.",
+  "revisao_interpretativa": {
+    "arquivo": "revisao_tecnica.json",
+    "natureza": "Leitura item por item, sem validação humana do GT e sem análise das íntegras",
+    "deduplicacao": "D02: pares examinados de guias/cartilhas/maquetes repetidos em seções distintas",
+    "potenciais_a_confirmar": "Manuais, materiais textuais técnicos e software identificados, com recorte específico AU ainda incerto; separados do total principal."
+  }
+}

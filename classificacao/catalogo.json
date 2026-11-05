@@ -1,0 +1,534 @@
+{
+  "Produto Técnico Bibliográfico": {
+    "nome_oficial": "Produto Técnico Bibliográfico",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Texto técnico especializado destinado à divulgação ou reflexão técnica, distinto de artigo científico convencional.",
+    "subtipos": [
+      "Artigo em revista técnica",
+      "Artigo em jornal ou revista de divulgação",
+      "Resenha ou crítica artística"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise. O nome na lista AU é Produto Técnico Bibliográfico; o verbete conceitual do GT é Produto Bibliográfico. Textos em catálogo não são automaticamente um dos três subtipos finais do GT.",
+    "exemplos": [
+      "Resenha crítica de arquitetura publicada em veículo técnico."
+    ],
+    "nao_incluir_automaticamente": "Livro, capítulo, apostila ou manual não equivalem automaticamente a esse tipo.",
+    "evidencias_recomendadas": "Texto integral, veículo, autoria, expediente e circulação.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §1, p. 26 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Ativos de Propriedade Intelectual": {
+    "nome_oficial": "Ativos de Propriedade Intelectual",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Ativo intelectual com natureza e titularidade documentáveis; não se restringe a patentes.",
+    "subtipos": [
+      "Patente",
+      "Desenho industrial",
+      "Marca",
+      "Indicação geográfica"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Desenho industrial ou marca com documentação de proteção."
+    ],
+    "nao_incluir_automaticamente": "RRT/ART, projeto profissional ou simples autoria não comprovam ativo protegido. Software sem registro exige análise própria.",
+    "evidencias_recomendadas": "Identificação do ativo, titularidade e evidência de proteção compatível com sua natureza.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §2, p. 28 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Tecnologia Social": {
+    "nome_oficial": "Tecnologia Social",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Solução, técnica ou metodologia construída socialmente para problema coletivo, com participação e possibilidade de apropriação/reaplicação.",
+    "subtipos": [
+      "Subdivisões operacionais: metodologia, técnica, solução social"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Método participativo de melhorias habitacionais com aplicação documentada."
+    ],
+    "nao_incluir_automaticamente": "Extensão, assistência técnica ou destinação social isoladas não comprovam tecnologia social.",
+    "evidencias_recomendadas": "Construção participativa, aplicação, apropriação, resultados e reaplicação.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §3, p. 36 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Produto de Editoração": {
+    "nome_oficial": "Produto de Editoração",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Responsabilidade por elaboração/organização editorial de uma publicação.",
+    "subtipos": [
+      "Livro/coletânea",
+      "Periódico",
+      "Anais",
+      "Catálogo"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Organização editorial de catálogo de arquitetura."
+    ],
+    "nao_incluir_automaticamente": "Autoria de artigo, parecer de avaliação ou participação no evento não demonstra responsabilidade editorial.",
+    "evidencias_recomendadas": "Expediente, créditos editoriais, publicação e circulação.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §5, p. 41 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Evento Organizado": {
+    "nome_oficial": "Evento Organizado",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Evento efetivamente organizado pelo autor ou equipe identificada.",
+    "subtipos": [
+      "Subdivisões operacionais: técnico-científico, acadêmico, cultural"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Organização de seminário de urbanismo com programação e comissão."
+    ],
+    "nao_incluir_automaticamente": "Palestra, participação, avaliação e curso ministrado não equivalem a organização.",
+    "evidencias_recomendadas": "Comissão, função, programação, público, registros e resultados.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §8, p. 48 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Relatório Técnico Conclusivo": {
+    "nome_oficial": "Relatório Técnico Conclusivo",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Documento que apresenta resultados/conclusões de estudo, diagnóstico ou atividade técnica identificável.",
+    "subtipos": [
+      "Relatório de estudo/diagnóstico",
+      "Laudo técnico",
+      "Parecer profissional conclusivo"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Laudo de acessibilidade de edifício, com diagnóstico e recomendações."
+    ],
+    "nao_incluir_automaticamente": "Assessoria/consultoria sem entrega identificada, relatório parcial e parecer sobre artigo não são automaticamente RTC. O GT 2019, p. 52, exclui relatório regular de finalização de projeto financiado por agência (ex.: Universal, PAEP, PIBIC).",
+    "evidencias_recomendadas": "Íntegra, objeto, método, resultados, conclusões, autoria e destinatário.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §10, p. 52 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Acervo": {
+    "nome_oficial": "Acervo",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Conjunto organizado de registros, documentos, materiais ou obras, com finalidade e documentação.",
+    "subtipos": [
+      "Subdivisões operacionais: documental, iconográfico, patrimonial"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Inventário organizado e acessível de patrimônio construído."
+    ],
+    "nao_incluir_automaticamente": "Fotografia avulsa ou intenção de fazer inventário não comprova acervo constituído.",
+    "evidencias_recomendadas": "Constituição, organização, catálogo, finalidade, acesso e preservação.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §13, p. 57 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Base de Dados Técnico-Científico": {
+    "nome_oficial": "Base de Dados Técnico-Científico",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Conjunto estruturado de dados relacionados para consulta, análise ou reutilização.",
+    "subtipos": [
+      "Subdivisões operacionais: relacional, geoespacial, repositório estruturado"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Base georreferenciada de indicadores de habitação."
+    ],
+    "nao_incluir_automaticamente": "Planilha isolada, lista ou coleta bruta não é automaticamente base técnico-científica.",
+    "evidencias_recomendadas": "Modelo de dados, estrutura, método, acesso, documentação e atualização.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §14, p. 59 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Produto de Comunicação": {
+    "nome_oficial": "Produto de Comunicação",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Produção estruturada de comunicação associada à circulação de conhecimento técnico-científico.",
+    "subtipos": [
+      "Subdivisões operacionais: audiovisual, programa, série, podcast"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Série de divulgação de pesquisa urbana, com episódios e créditos."
+    ],
+    "nao_incluir_automaticamente": "Entrevista, mesa, postagem ou administração de perfil não comprova autoria de produto estruturado.",
+    "evidencias_recomendadas": "Conteúdo, autoria/produção, veículo, circulação, público e vínculo com conhecimento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §16, p. 63 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Carta, Mapa ou Similar": {
+    "nome_oficial": "Carta, Mapa ou Similar",
+    "grupo": "tecnica",
+    "escopo": "especifico_au",
+    "definicao": "Produto cartográfico resultante de estudo técnico-científico, com autonomia documentável.",
+    "subtipos": [
+      "Carta",
+      "Mapa",
+      "Atlas ou similar cartográfico"
+    ],
+    "caracteristicas": "Produto e contribuição intelectual devem estar identificados; qualidade e aderência exigem análise.",
+    "exemplos": [
+      "Atlas urbano ou mapa de patrimônio baseado em estudo."
+    ],
+    "nao_incluir_automaticamente": "Figura, planta ou mapa de artigo não é automaticamente produto autônomo adicional.",
+    "evidencias_recomendadas": "Método, escala, legenda, dados, autoria, publicação e autonomia.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §17, p. 65 (página inicial impressa).",
+    "natureza_descricao": "Síntese de apoio à revisão; exemplos e subdivisões assinaladas como operacionais não criam categorias ou critérios CAPES."
+  },
+  "Manual/Protocolo": {
+    "nome_oficial": "Manual/Protocolo",
+    "grupo": "tecnica",
+    "escopo": "lista_geral_nao_equiparada",
+    "definicao": "Tipo da lista geral AUD; enquadramento específico de AU precisa de fundamentação adicional.",
+    "subtipos": [],
+    "caracteristicas": "Mantido separado dos dez tipos específicos.",
+    "exemplos": [
+      "Guia técnico de manutenção (Manual/Protocolo)."
+    ],
+    "nao_incluir_automaticamente": "Não equiparar automaticamente a Produto Técnico Bibliográfico ou outro dos dez tipos AU.",
+    "evidencias_recomendadas": "Íntegra, autoria, finalidade, uso e fundamento do enquadramento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §11, p. 54 (página inicial impressa).",
+    "natureza_descricao": "Categoria auxiliar; não implica inclusão normativa no recorte AU."
+  },
+  "Material Didático": {
+    "nome_oficial": "Material Didático",
+    "grupo": "tecnica",
+    "escopo": "lista_geral_nao_equiparada",
+    "definicao": "Tipo da lista geral AUD; enquadramento específico de AU precisa de fundamentação adicional.",
+    "subtipos": [],
+    "caracteristicas": "Mantido separado dos dez tipos específicos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Não equiparar automaticamente a Produto Técnico Bibliográfico ou outro dos dez tipos AU.",
+    "evidencias_recomendadas": "Íntegra, autoria, finalidade, uso e fundamento do enquadramento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §6, p. 43 (página inicial impressa).",
+    "natureza_descricao": "Categoria auxiliar; não implica inclusão normativa no recorte AU."
+  },
+  "Norma ou Marco Regulatório": {
+    "nome_oficial": "Norma ou Marco Regulatório",
+    "grupo": "tecnica",
+    "escopo": "lista_geral_nao_equiparada",
+    "definicao": "Tipo da lista geral AUD; enquadramento específico de AU precisa de fundamentação adicional.",
+    "subtipos": [],
+    "caracteristicas": "Mantido separado dos dez tipos específicos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Não equiparar automaticamente a Produto Técnico Bibliográfico ou outro dos dez tipos AU.",
+    "evidencias_recomendadas": "Íntegra, autoria, finalidade, uso e fundamento do enquadramento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §9, p. 50 (página inicial impressa).",
+    "natureza_descricao": "Categoria auxiliar; não implica inclusão normativa no recorte AU."
+  },
+  "Software/Aplicativo": {
+    "nome_oficial": "Software/Aplicativo",
+    "grupo": "tecnica",
+    "escopo": "lista_geral_nao_equiparada",
+    "definicao": "Tipo da lista geral AUD; enquadramento específico de AU precisa de fundamentação adicional.",
+    "subtipos": [],
+    "caracteristicas": "Mantido separado dos dez tipos específicos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Não equiparar automaticamente a Produto Técnico Bibliográfico ou outro dos dez tipos AU.",
+    "evidencias_recomendadas": "Íntegra, autoria, finalidade, uso e fundamento do enquadramento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área AUD 2025–2028, §2.2, lista específica p. 19 ou lista geral (escopo indicado); GT Produção Técnica 2019, §7, p. 45 (página inicial impressa).",
+    "natureza_descricao": "Categoria auxiliar; não implica inclusão normativa no recorte AU."
+  },
+  "Outro tipo da lista geral AUD": {
+    "nome_oficial": "Outro tipo da lista geral AUD",
+    "grupo": "tecnica",
+    "escopo": "lista_geral_nao_equiparada",
+    "definicao": "Tipo da lista geral AUD; enquadramento específico de AU precisa de fundamentação adicional.",
+    "subtipos": [],
+    "caracteristicas": "Mantido separado dos dez tipos específicos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Não equiparar automaticamente a Produto Técnico Bibliográfico ou outro dos dez tipos AU.",
+    "evidencias_recomendadas": "Íntegra, autoria, finalidade, uso e fundamento do enquadramento.",
+    "fontes": [
+      "area2025",
+      "tecnico2019"
+    ],
+    "localizacao": "Documento de Área, §2.2, lista geral; GT 2019, verbetes. Manual/Protocolo: p. 54.",
+    "natureza_descricao": "Categoria auxiliar; não implica inclusão normativa no recorte AU."
+  },
+  "Projeto arquitetônico, urbanístico, paisagístico, gráfico ou de produto": {
+    "nome_oficial": "Projeto arquitetônico, urbanístico, paisagístico, gráfico ou de produto",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Exposição, mostra ou instalação": {
+    "nome_oficial": "Exposição, mostra ou instalação",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Curadoria e museografia": {
+    "nome_oficial": "Curadoria e museografia",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Produção fotográfica ou visual": {
+    "nome_oficial": "Produção fotográfica ou visual",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Produção audiovisual": {
+    "nome_oficial": "Produção audiovisual",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Produção literária, musical ou cênica": {
+    "nome_oficial": "Produção literária, musical ou cênica",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Outra produção artístico-cultural": {
+    "nome_oficial": "Outra produção artístico-cultural",
+    "grupo": "artistica",
+    "escopo": "subdivisao_operacional_artistica",
+    "definicao": "Subdivisão operacional para examinar criação artístico-cultural e sua relação com AUD.",
+    "subtipos": [],
+    "caracteristicas": "Natureza criativa, autoria, documentação, apresentação/circulação e aderência devem ser examinadas. Não há escore.",
+    "exemplos": [
+      "Projeto apresentado em exposição de arquitetura; investigar documentação e contribuição."
+    ],
+    "nao_incluir_automaticamente": "Projeto profissional convencional, execução, reforma, instalações ou maquete não são automaticamente produção artístico-cultural. Música, literatura e cena precisam de aderência a AUD.",
+    "evidencias_recomendadas": "Processo criativo/investigação, autoria, pesquisa, apresentação pública, catálogo, seleção, reconhecimento e documentação. Ausência de dados reduz a certeza.",
+    "fontes": [
+      "artistico2019",
+      "area2025"
+    ],
+    "localizacao": "GT Qualis Artístico 2019, categorias/critérios; subdivisões do aplicativo, sem pontuação histórica.",
+    "natureza_descricao": "Subdivisão operacional do aplicativo apoiada nos referenciais; não é nova tipologia oficial CAPES."
+  },
+  "Artigo publicado em periódico": {
+    "nome_oficial": "Artigo publicado em periódico",
+    "grupo": "bibliografica",
+    "tipo_bibliografico": "artigo",
+    "escopo": "bibliografico",
+    "definicao": "Natureza bibliográfica preservada; examinar publicação, autoria, qualidade e aderência.",
+    "subtipos": [],
+    "caracteristicas": "Anais podem ser incluídos ou excluídos no cenário interno; resumos e apresentações não equivalem a trabalhos completos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Apenas pertencer ao tipo bibliográfico não comprova qualificação.",
+    "evidencias_recomendadas": "Referência completa, texto, publicação e informações editoriais.",
+    "fontes": [
+      "apcn2026",
+      "area2025"
+    ],
+    "localizacao": "APCN 2026, §4; Documento de Área, §2.2.",
+    "natureza_descricao": "Síntese de apoio; sem Qualis ou pontuação inventados."
+  },
+  "Livro publicado/organizado ou edição": {
+    "nome_oficial": "Livro publicado/organizado ou edição",
+    "grupo": "bibliografica",
+    "tipo_bibliografico": "livro",
+    "escopo": "bibliografico",
+    "definicao": "Natureza bibliográfica preservada; examinar publicação, autoria, qualidade e aderência.",
+    "subtipos": [],
+    "caracteristicas": "Anais podem ser incluídos ou excluídos no cenário interno; resumos e apresentações não equivalem a trabalhos completos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Apenas pertencer ao tipo bibliográfico não comprova qualificação.",
+    "evidencias_recomendadas": "Referência completa, texto, publicação e informações editoriais.",
+    "fontes": [
+      "apcn2026",
+      "area2025"
+    ],
+    "localizacao": "APCN 2026, §4; Documento de Área, §2.2.",
+    "natureza_descricao": "Síntese de apoio; sem Qualis ou pontuação inventados."
+  },
+  "Capítulo de livro": {
+    "nome_oficial": "Capítulo de livro",
+    "grupo": "bibliografica",
+    "tipo_bibliografico": "capitulo",
+    "escopo": "bibliografico",
+    "definicao": "Natureza bibliográfica preservada; examinar publicação, autoria, qualidade e aderência.",
+    "subtipos": [],
+    "caracteristicas": "Anais podem ser incluídos ou excluídos no cenário interno; resumos e apresentações não equivalem a trabalhos completos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Apenas pertencer ao tipo bibliográfico não comprova qualificação.",
+    "evidencias_recomendadas": "Referência completa, texto, publicação e informações editoriais.",
+    "fontes": [
+      "apcn2026",
+      "area2025"
+    ],
+    "localizacao": "APCN 2026, §4; Documento de Área, §2.2.",
+    "natureza_descricao": "Síntese de apoio; sem Qualis ou pontuação inventados."
+  },
+  "Trabalho completo em anais": {
+    "nome_oficial": "Trabalho completo em anais",
+    "grupo": "bibliografica",
+    "tipo_bibliografico": "anais",
+    "escopo": "bibliografico",
+    "definicao": "Natureza bibliográfica preservada; examinar publicação, autoria, qualidade e aderência.",
+    "subtipos": [],
+    "caracteristicas": "Anais podem ser incluídos ou excluídos no cenário interno; resumos e apresentações não equivalem a trabalhos completos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Apenas pertencer ao tipo bibliográfico não comprova qualificação.",
+    "evidencias_recomendadas": "Referência completa, texto, publicação e informações editoriais.",
+    "fontes": [
+      "apcn2026",
+      "area2025"
+    ],
+    "localizacao": "APCN 2026, §4; Documento de Área, §2.2.",
+    "natureza_descricao": "Síntese de apoio; sem Qualis ou pontuação inventados."
+  },
+  "Outro registro bibliográfico": {
+    "nome_oficial": "Outro registro bibliográfico",
+    "grupo": "bibliografica",
+    "tipo_bibliografico": "outro",
+    "escopo": "bibliografico",
+    "definicao": "Natureza bibliográfica preservada; examinar publicação, autoria, qualidade e aderência.",
+    "subtipos": [],
+    "caracteristicas": "Anais podem ser incluídos ou excluídos no cenário interno; resumos e apresentações não equivalem a trabalhos completos.",
+    "exemplos": [],
+    "nao_incluir_automaticamente": "Apenas pertencer ao tipo bibliográfico não comprova qualificação.",
+    "evidencias_recomendadas": "Referência completa, texto, publicação e informações editoriais.",
+    "fontes": [
+      "apcn2026",
+      "area2025"
+    ],
+    "localizacao": "APCN 2026, §4; Documento de Área, §2.2.",
+    "natureza_descricao": "Síntese de apoio; sem Qualis ou pontuação inventados."
+  }
+}

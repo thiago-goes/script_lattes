@@ -1,0 +1,19 @@
+{
+  "name": "atlas-producao-ufg",
+  "private": true,
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "test:server": "node --test tests/server.test.mjs",
+    "dev": "node tests/local-server.mjs 5173",
+    "test": "node scripts/test-unit.mjs",
+    "predev": "node scripts/prepare-demo.mjs",
+    "pretest": "node scripts/prepare-demo.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "drizzle-orm": "0.45.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
